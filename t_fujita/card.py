@@ -13,19 +13,21 @@ app = typer.Typer()
 
 def create_content():
     content = Text()
-    content.append("Tomoya Fujita\n\n", style="bold cyan")
+    content.append(" \n Tomoya Fujita / t-fujita\n\n", style="bold cyan")
     content.append("    Work:  ", style="green")
-    content.append("Software Engineer at home :)\n\n", style="yellow")
+    content.append("Software Engineer at 🏠 :)\n", style="yellow")
+    content.append("    Freelance: ", style="green")
+    content.append("PolarBytes\n\n", style="yellow")
     content.append("    GitHub:   ", style="green")
     content.append("https://github.com/TomoyaFujita2016\n", style="blue underline")
     content.append("    Qiita:    ", style="green")
     content.append("https://qiita.com/TomoyaFujita2016\n", style="blue underline")
     content.append("    PyPI:     ", style="green")
-    content.append("https://pypi.org/user/t-fujita\n", style="blue underline")
+    content.append("https://pypi.org/user/t-fujita\n\n", style="blue underline")
     content.append("    Contact:  ", style="green")
-    content.append("t-fujita@polarbytes.jp\n\n", style="magenta")
+    content.append("t-fujita@polarbytes.jp\n", style="magenta")
     content.append("    Card:     ", style="green")
-    content.append("pipx run t-fujita-card", style="red")
+    content.append("pipx run t-fujita", style="red")
     return content
 
 
