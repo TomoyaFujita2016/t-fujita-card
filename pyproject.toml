@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "t-fujita"
-version = "1.1.0"
+version = "1.1.1"
 description = "pipx run t-fujita"
 authors = ["t-fujita <t-fujita@creationline.com>"]
 readme = "README.md"
