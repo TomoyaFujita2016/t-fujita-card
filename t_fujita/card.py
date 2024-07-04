@@ -20,7 +20,7 @@ def create_content():
     content.append("PolarBytes\n\n", style="yellow")
     content.append("    GitHub:   ", style="green")
     content.append("https://github.com/TomoyaFujita2016\n", style="blue underline")
-    content.append("    Zenn:    ", style="green")
+    content.append("    Zenn:     ", style="green")
     content.append("https://zenn.dev/tomoya_fujita\n", style="blue underline")
     content.append("    Qiita:    ", style="green")
     content.append("https://qiita.com/TomoyaFujita2016\n", style="blue underline")
