@@ -1,9 +1,12 @@
 [tool.poetry]
-name = "t-fujita-card"
+name = "t-fujita"
 version = "0.1.0"
-description = ""
+description = "pipx run t-fujita"
 authors = ["t-fujita <t-fujita@creationline.com>"]
 readme = "README.md"
+include = ["t_fujita_card/**/*"]
+exclude = ["tests", "*.tests", "*.tests.*", "tests.*", ".venv/**/*"]
+
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -11,6 +14,7 @@ rich = "^13.7.1"
 typer = "^0.12.3"
 
 
+pipx = "^1.6.0"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
