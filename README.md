@@ -1,4 +1,6 @@
 # t-fujita-card
+![card](./t-fujita-cards.gif)
+
 ```
 pipx run t-fujita
 ```

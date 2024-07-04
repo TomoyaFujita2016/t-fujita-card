@@ -47,7 +47,7 @@ def main():
                 content.append(char)
                 panel = Panel(
                     Align.center(content, vertical="middle"),
-                    border_style="white",
+                    #border_style="white",
                     expand=False,
                 )
                 live.update(panel)
