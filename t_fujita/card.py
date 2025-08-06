@@ -17,10 +17,12 @@ def create_content():
     content.append("    Work:  ", style="green")
     content.append("Software Engineer at 🏠 :)\n", style="yellow")
     content.append("    Freelance: ", style="green")
-    content.append("PolarByters\n\n", style="yellow")
+    content.append("PolarByters\n", style="yellow")
+    content.append("    Company(WIP): ", style="green")
+    content.append("Grizzlarity Co., Ltd.\n\n", style="yellow")
 
     content.append("    HP:       ", style="green")
-    content.append("https://polarbyters.com\n", style="blue underline")
+    content.append("https://grizzlarity.com\n", style="blue underline")
     content.append("    GitHub:   ", style="green")
     content.append("https://github.com/TomoyaFujita2016\n", style="blue underline")
     content.append("    Twitter:  ", style="green")
@@ -32,9 +34,9 @@ def create_content():
     content.append("    PyPI:     ", style="green")
     content.append("https://pypi.org/user/t-fujita\n\n", style="blue underline")
     content.append("    Contact:  ", style="green")
-    content.append("t-fujita@polarbyters.com\n", style="magenta")
+    content.append("fujita.t.works@gmail.com\n", style="magenta")
     content.append("    Card:     ", style="green")
-    content.append("pipx run t-fujita", style="red")
+    content.append("uvx run t-fujita", style="red")
     return content
 
 
@@ -52,7 +54,7 @@ def main():
                 content.append(char)
                 panel = Panel(
                     Align.center(content, vertical="middle"),
-                    #border_style="white",
+                    # border_style="white",
                     expand=False,
                 )
                 live.update(panel)
@@ -62,7 +64,7 @@ def main():
             sleep(0.1)  # 行の間の短い停止
 
         for i in range(1, 50):
-            panel.border_style = Style(color=f"color({i*5})")
+            panel.border_style = Style(color=f"color({i * 5})")
             live.update(panel)
             sleep(0.1)
 
