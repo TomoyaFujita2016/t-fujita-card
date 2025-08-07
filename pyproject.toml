@@ -2,16 +2,19 @@
 name = "t-fujita"
 version = "1.1.4"
 description = "pipx run t-fujita"
-authors = ["t-fujita <t-fujita@creationline.com>"]
+authors = ["TomoyaFujita2016 <fujita.t.2016c@gmail.com>"]
 readme = "README.md"
 include = ["t_fujita/**/*"]
 exclude = ["tests", "*.tests", "*.tests.*", "tests.*", ".venv/**/*"]
 
 
 [tool.poetry.dependencies]
-python = "^3.7"
-rich = "^13.0.0"
+python = ">=3.8,<4.0"
 typer = "^0.9.0"
+terminaltexteffects = "^0.12.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.12.7"
 
 [build-system]
 requires = ["poetry-core"]
