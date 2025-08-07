@@ -104,7 +104,7 @@ def create_card_text():
 ║  ─────────────────────────────────────────────────────   ║
 ║                                                          ║
 ║  📧 Contact:   fujita.t.works@gmail.com                  ║
-║  💳 Card:      uvx run t-fujita                          ║
+║  💳 Card:      uvx t-fujita                          ║
 ║                                                          ║
 ╚══════════════════════════════════════════════════════════╝
 """
@@ -140,9 +140,9 @@ def main(
     Display business card with terminal effects.
 
     Example:
-        uvx run t-fujita matrix
-        uvx run t-fujita fireworks
-        uvx run t-fujita  # random
+        uvx t-fujita matrix
+        uvx t-fujita fireworks
+        uvx t-fujita  # random
     """
 
     effect = random.choice(list(EFFECTS_MAP.keys()))
